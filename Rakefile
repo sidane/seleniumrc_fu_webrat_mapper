@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
@@ -19,4 +20,17 @@ Rake::RDocTask.new(:rdoc) do |rdoc|
   rdoc.options << '--line-numbers' << '--inline-source'
   rdoc.rdoc_files.include('README')
   rdoc.rdoc_files.include('lib/**/*.rb')
+end
+
+begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |gemspec|
+    gemspec.name = "seleniumrc_fc_webrat_mapper"
+    gemspec.summary = "For simplifying migrating of Seleniumrc_fu Rails plugin tests to Webrat tests"
+    gemspec.email = "niall@4l.ie"
+    gemspec.homepage = "http://github.com/Sidane/seleniumrc_fu_webrat_mapper"
+    gemspec.authors = ["Niall Mullally"]
+  end
+rescue LoadError
+  puts "Jeweler not available. Install it with: sudo gem install jeweler"
 end

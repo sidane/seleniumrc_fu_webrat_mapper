@@ -11,6 +11,8 @@ Not a complete set of mappings, but can be easily extended.
 Require 'seleniumrc_fu_webrat_mapper' after 'webrat'.
 
 Update your seleniumrc_fu tests to use Webrat and the mapper will enable you to use (some of) the seleniumrc_fu API without rewriting to the Webrat API.
+ 
+Simplified example:
 
   require File.dirname(__FILE__) + "/../test_helper"
   require "webrat"

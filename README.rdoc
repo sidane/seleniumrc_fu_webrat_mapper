@@ -1,0 +1,17 @@
+= Seleniumrc_fu Webrat Mapper
+
+For simplifying migrating of Seleniumrc_fu Rails plugin tests to Webrat tests without an extensive rewrite.
+
+Extends Webrat::Methods and Webrat::Matchers modules to map Seleniumrc_fu methods to their Webrat equivalent.
+
+Not a complete set of mappings, but can be easily extended.
+
+== Installation
+
+Require 'seleniumrc_fu_webrat_mapper' after 'webrat'.
+
+  require 'webrat'
+  require 'seleniumrc_fu_webrat_mapper'
+
+
+Copyright (c) 2009 Niall Mullally, released under the MIT license

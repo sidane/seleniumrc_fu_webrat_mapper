@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{seleniumrc_fc_webrat_mapper}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Niall Mullally"]
-  s.date = %q{2009-12-14}
+  s.date = %q{2009-12-15}
   s.email = %q{niall@4l.ie}
   s.extra_rdoc_files = [
     "README.rdoc"
@@ -26,6 +26,8 @@ Gem::Specification.new do |s|
      "lib/seleniumrc_fu_webrat_mapper/methods.rb",
      "lib/seleniumrc_fu_webrat_mapper/selenium/matchers.rb",
      "lib/seleniumrc_fu_webrat_mapper/shared_matchers.rb",
+     "seleniumrc_fc_webrat_mapper-0.1.0.gem",
+     "seleniumrc_fc_webrat_mapper.gemspec",
      "test/matchers_test.rb",
      "test/methods_test.rb",
      "test/selenium_matchers_test.rb",
